@@ -54,8 +54,8 @@ public class WelcomeActivity extends AppCompatActivity {
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
-        StringGetAppURL = "https://raw.githubusercontent.com/3dmax2/android-vpn-client-ics-openvpn/images/appdetails.json";
-        StringGetConnectionURL = "https://raw.githubusercontent.com/3dmax2/android-vpn-client-ics-openvpn/images/filedetails.json";
+        StringGetAppURL = "http://176.114.10.107/appdetails.json";
+        StringGetConnectionURL = "http://176.114.10.107/filedetails.json";
         //StringGetConnectionURL = "https://gayankuruppu.github.io/buzz/connection.html";
 
         Typeface RobotoMedium = Typeface.createFromAsset(getAssets(), "fonts/Roboto-Medium.ttf");
